@@ -1,8 +1,1 @@
-window.addEventListener('DOMContentLoaded', function () {
-  var spinnerContainer = document.getElementById('spinner-container');
-
-  // 在指定时间后隐藏加载指示器
-  setTimeout(function () {
-    spinnerContainer.style.display = 'none';
-  }, 1200);
-});
+window.addEventListener('DOMContentLoaded',function(){var spinnerContainer=document.getElementById('spinner-container');setTimeout(function(){spinnerContainer.style.display='none'},1200)});
